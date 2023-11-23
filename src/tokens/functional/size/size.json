@@ -425,6 +425,46 @@
       }
     }
   },
+  "spinner": {
+    "strokeWidth": {
+      "default": {
+        "$value": "2px",
+        "$type": "dimension"
+      }
+    },
+    "size": {
+      "small": {
+        "$value": "{base.size.16}",
+        "$type": "dimension",
+        "$extensions": {
+          "org.primer.figma": {
+            "collection": "pattern/size",
+            "scopes": ["size"]
+          }
+        }
+      },
+      "medium": {
+        "$value": "{base.size.32}",
+        "$type": "dimension",
+        "$extensions": {
+          "org.primer.figma": {
+            "collection": "pattern/size",
+            "scopes": ["size"]
+          }
+        }
+      },
+      "large": {
+        "$value": "{base.size.64}",
+        "$type": "dimension",
+        "$extensions": {
+          "org.primer.figma": {
+            "collection": "pattern/size",
+            "scopes": ["size"]
+          }
+        }
+      }
+    }
+  },
   "stack": {
     "padding": {
       "condensed": {
@@ -433,7 +473,11 @@
         "$extensions": {
           "org.primer.figma": {
             "collection": "pattern/size",
-            "scopes": ["gap"]
+            "scopes": ["gap"],
+            "group": "component",
+            "codeSyntax": {
+              "web": "var(--stack-padding-condensed) /* utility class: .p-2 */"
+            }
           }
         }
       },
@@ -443,7 +487,11 @@
         "$extensions": {
           "org.primer.figma": {
             "collection": "pattern/size",
-            "scopes": ["gap"]
+            "group": "component",
+            "scopes": ["gap"],
+            "codeSyntax": {
+              "web": "var(--stack-padding-normal) /* utility class: .p-3 */"
+            }
           }
         }
       },
@@ -453,7 +501,11 @@
         "$extensions": {
           "org.primer.figma": {
             "collection": "pattern/size",
-            "scopes": ["gap"]
+            "group": "component",
+            "scopes": ["gap"],
+            "codeSyntax": {
+              "web": "var(--stack-padding-spacious) /* utility class: .p-4 */"
+            }
           }
         }
       }
@@ -465,7 +517,11 @@
         "$extensions": {
           "org.primer.figma": {
             "collection": "pattern/size",
-            "scopes": ["gap"]
+            "group": "component",
+            "scopes": ["gap"],
+            "codeSyntax": {
+              "web": "var(--stack-gap-condensed) /* utility class: .gap-2 */"
+            }
           }
         }
       },
@@ -475,7 +531,11 @@
         "$extensions": {
           "org.primer.figma": {
             "collection": "pattern/size",
-            "scopes": ["gap"]
+            "group": "component",
+            "scopes": ["gap"],
+            "codeSyntax": {
+              "web": "var(--stack-gap-normal) /* utility class: .gap-3 */"
+            }
           }
         }
       },
@@ -485,7 +545,11 @@
         "$extensions": {
           "org.primer.figma": {
             "collection": "pattern/size",
-            "scopes": ["gap"]
+            "group": "component",
+            "scopes": ["gap"],
+            "codeSyntax": {
+              "web": "var(--stack-gap-spacious) /* utility class: .gap-4 */"
+            }
           }
         }
       }

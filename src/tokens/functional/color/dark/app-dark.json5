@@ -5,8 +5,9 @@
       $type: 'color',
       $extensions: {
         'org.primer.figma': {
-          collection: 'pattern/mode',
+          collection: 'mode',
           mode: 'dark',
+          group: 'component',
           scopes: ['borderColor'],
         },
       },
@@ -19,8 +20,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['bgColor'],
           },
         },
@@ -35,8 +37,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['bgColor'],
           },
         },
@@ -51,8 +54,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -62,8 +66,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -75,8 +80,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['bgColor'],
             },
           },
@@ -87,8 +93,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['bgColor'],
             },
           },
@@ -100,8 +107,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['bgColor'],
             },
           },
@@ -116,8 +124,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -127,8 +136,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -140,8 +150,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['bgColor'],
             },
           },
@@ -152,8 +163,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['bgColor'],
             },
           },
@@ -165,8 +177,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['bgColor'],
             },
           },
@@ -181,8 +194,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['bgColor'],
             },
           },
@@ -195,24 +209,10 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['fgColor'],
-          },
-        },
-      },
-    },
-  },
-  diffStat: {
-    addition: {
-      bgColor: {
-        $value: '{bgColor.success.emphasis}',
-        $type: 'color',
-        $extensions: {
-          'org.primer.figma': {
-            collection: 'pattern/mode',
-            mode: 'dark',
-            scopes: ['bgColor'],
           },
         },
       },
@@ -224,8 +224,9 @@
       $type: 'color',
       $extensions: {
         'org.primer.figma': {
-          collection: 'pattern/mode',
+          collection: 'mode',
           mode: 'dark',
+          group: 'component',
           scopes: ['fgColor'],
         },
       },
@@ -235,8 +236,9 @@
       $type: 'color',
       $extensions: {
         'org.primer.figma': {
-          collection: 'pattern/mode',
+          collection: 'mode',
           mode: 'dark',
+          group: 'component',
           scopes: ['bgColor'],
         },
       },
@@ -247,8 +249,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['bgColor'],
           },
         },
@@ -261,8 +264,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -272,8 +276,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -286,8 +291,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['fgColor'],
           },
         },
@@ -299,8 +305,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['fgColor'],
           },
         },
@@ -312,8 +319,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['bgColor'],
           },
         },
@@ -325,8 +333,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['bgColor'],
           },
         },
@@ -338,8 +347,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['fgColor'],
           },
         },
@@ -351,8 +361,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['bgColor'],
           },
         },
@@ -365,8 +376,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -376,8 +388,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -387,8 +400,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -398,8 +412,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -409,8 +424,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -420,8 +436,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -431,8 +448,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -442,8 +460,9 @@
           $type: 'color',
           $extensions: {
             'org.primer.figma': {
-              collection: 'pattern/mode',
+              collection: 'mode',
               mode: 'dark',
+              group: 'component',
               scopes: ['fgColor'],
             },
           },
@@ -458,8 +477,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['fgColor'],
           },
         },
@@ -470,8 +490,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['fgColor'],
           },
         },
@@ -482,8 +503,9 @@
       $type: 'color',
       $extensions: {
         'org.primer.figma': {
-          collection: 'pattern/mode',
+          collection: 'mode',
           mode: 'dark',
+          group: 'component',
           scopes: ['bgColor'],
         },
       },
@@ -494,8 +516,9 @@
         $type: 'color',
         $extensions: {
           'org.primer.figma': {
-            collection: 'pattern/mode',
+            collection: 'mode',
             mode: 'dark',
+            group: 'component',
             scopes: ['borderColor'],
           },
         },
@@ -508,8 +531,9 @@
       $type: 'color',
       $extensions: {
         'org.primer.figma': {
-          collection: 'pattern/mode',
+          collection: 'mode',
           mode: 'dark',
+          group: 'component',
           scopes: ['bgColor'],
         },
       },
@@ -519,8 +543,9 @@
       $type: 'color',
       $extensions: {
         'org.primer.figma': {
-          collection: 'pattern/mode',
+          collection: 'mode',
           mode: 'dark',
+          group: 'component',
           scopes: ['borderColor'],
         },
       },

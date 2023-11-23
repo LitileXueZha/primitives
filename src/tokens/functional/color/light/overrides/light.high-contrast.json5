@@ -364,9 +364,26 @@
           $type: 'color',
           alpha: 1,
         },
+        active: {
+          $value: '{base.color.green.7}',
+          $type: 'color',
+          alpha: 1,
+        },
       },
     },
     invisible: {
+      fgColor: {
+        hover: {
+          $value: '{base.color.blue.2}',
+          $type: 'color',
+        },
+      },
+      iconColor: {
+        hover: {
+          $value: '{fgColor.onEmphasis}',
+          $type: 'color',
+        },
+      },
       bgColor: {
         hover: {
           $value: '{base.color.gray.8}',

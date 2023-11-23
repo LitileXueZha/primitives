@@ -113,6 +113,29 @@ export const buildDesignTokens = (buildOptions: ConfigGeneratorOptions): void =>
   ).buildAllPlatforms()
 
   /** -----------------------------------
+   * Motion tokens
+   * ----------------------------------- */
+  PrimerStyleDictionary.extend(
+    getStyleDictionaryConfig(
+      `functional/motion/motion`,
+      [`src/tokens/functional/motion/*.json5`],
+      [`src/tokens/base/motion/*.json5`],
+      buildOptions,
+      {
+        css: css(`css/functional/motion/motion.css`, buildOptions.prefix, buildOptions.buildPath, {
+          options: {
+            outputReferences: true,
+          },
+        }),
+      },
+    ),
+  ).buildAllPlatforms()
+
+  PrimerStyleDictionary.extend(
+    getStyleDictionaryConfig(`base/motion/motion`, [`src/tokens/base/motion/*.json5`], [], buildOptions),
+  ).buildAllPlatforms()
+
+  /** -----------------------------------
    * deprecated tokens
    * ----------------------------------- */
   const deprecatedBuilds: TokenBuildInput[] = [
@@ -138,6 +161,12 @@ export const buildDesignTokens = (buildOptions: ConfigGeneratorOptions): void =>
       filename: 'size',
       source: [`src/tokens/base/size/*.json`, `src/tokens/functional/size/*.json`],
       include: [`src/tokens/base/size/*.json`],
+    },
+    // motion
+    {
+      filename: 'motion',
+      source: [`src/tokens/base/motion/*.json5`, `src/tokens/functional/motion/*.json5`],
+      include: [`src/tokens/base/motion/*.json5`],
     },
   ]
   //
@@ -207,6 +236,12 @@ export const buildDesignTokens = (buildOptions: ConfigGeneratorOptions): void =>
 /** -----------------------------------
  * Run build script
  * ----------------------------------- */
+// build to private directory for backwards compatibility
 buildDesignTokens({
   buildPath: 'tokens-next-private/',
+})
+
+// build to dist
+buildDesignTokens({
+  buildPath: 'dist/',
 })

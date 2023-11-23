@@ -1,5 +1,107 @@
 # @primer/primitives
 
+## 7.15.4
+
+### Patch Changes
+
+- [#781](https://github.com/primer/primitives/pull/781) [`8ba7d6b`](https://github.com/primer/primitives/commit/8ba7d6b7e6ef8eb72b5ac2b1eacbbcbf8d9a9a0f) Thanks [@langermank](https://github.com/langermank)! - Adjust `prettylights` comment fg color
+
+- [#747](https://github.com/primer/primitives/pull/747) [`2b76e2d`](https://github.com/primer/primitives/commit/2b76e2d7c98255ec3f6141d3146b702fa98b2953) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Add stack size tokens to figma export
+
+- [#782](https://github.com/primer/primitives/pull/782) [`ba763cc`](https://github.com/primer/primitives/commit/ba763cc75a0bcafbcee45bc33ca34951069a92f2) Thanks [@langermank](https://github.com/langermank)! - Update the muted foreground color to increase contrast against default controls in dark mode
+
+- [#783](https://github.com/primer/primitives/pull/783) [`d0f95c7`](https://github.com/primer/primitives/commit/d0f95c71061f9840c095e4e99c6a4919e1be9f62) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Update xxlarge breakpoint value
+
+- [#779](https://github.com/primer/primitives/pull/779) [`105afb5`](https://github.com/primer/primitives/commit/105afb5b4f4ad1c7fb912bd8cd6d629135e0ad38) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - adding CodeSyntax to tokens for figma
+
+## 7.15.3
+
+### Patch Changes
+
+- [#778](https://github.com/primer/primitives/pull/778) [`f546c45`](https://github.com/primer/primitives/commit/f546c45c910f92d4a2ec803d78508f476b30375b) Thanks [@mperrotti](https://github.com/mperrotti)! - Updates inactive button text colors to meet contrast against the inactive button background color.
+
+## 7.15.2
+
+### Patch Changes
+
+- [#776](https://github.com/primer/primitives/pull/776) [`cc36ab9`](https://github.com/primer/primitives/commit/cc36ab9a4f6f5eec4badef964ff0170e07e7d5d8) Thanks [@mperrotti](https://github.com/mperrotti)! - Corrects light theme inactive button bg color
+
+## 7.15.1
+
+### Patch Changes
+
+- [#774](https://github.com/primer/primitives/pull/774) [`3a6d736`](https://github.com/primer/primitives/commit/3a6d7364df107fed2d6d1f7412c94d597c103692) Thanks [@mperrotti](https://github.com/mperrotti)! - Adds color tokens for the "inactive" button state. Tokens are added to the old and new builds so we can still support styling with `styled-components`
+
+## 7.15.0
+
+### Minor Changes
+
+- [#744](https://github.com/primer/primitives/pull/744) [`5f9eb77`](https://github.com/primer/primitives/commit/5f9eb77e157c25411723d131016536c9c4dec515) Thanks [@mperrotti](https://github.com/mperrotti)! - Introduces design tokens for motion properties, and adds tokens to support loading indicators.
+
+### Patch Changes
+
+- [#745](https://github.com/primer/primitives/pull/745) [`bcef815`](https://github.com/primer/primitives/commit/bcef815605cc086d7411fb61c37d08825502b84a) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - export control color tokens in Figma
+
+## 7.14.1
+
+### Patch Changes
+
+- [#743](https://github.com/primer/primitives/pull/743) [`5125c62`](https://github.com/primer/primitives/commit/5125c6275a0f03fa28227d06d34540b56dee949f) Thanks [@langermank](https://github.com/langermank)! - - Disabled state for transparent type controls is now transparent
+
+  - Reverted the selected color for transparent type controls back to the original (pulled from old source file)
+  - Fixed the disabled fgColor for ToggleSwitch
+
+- [#742](https://github.com/primer/primitives/pull/742) [`efa8b1c`](https://github.com/primer/primitives/commit/efa8b1c8542b9c7c1a124e7c2b6613cd4d622f52) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - buttonCounter color hotfix
+
+- [#739](https://github.com/primer/primitives/pull/739) [`04a316c`](https://github.com/primer/primitives/commit/04a316c5749f4eb889325f73e8188b7663229b45) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Fix contrast for bgColor-neutral-muted
+
+## 7.14.0
+
+### Minor Changes
+
+- [`6b46ff4`](https://github.com/primer/primitives/commit/6b46ff40d2619b46329e111cb8198bc81eabcb3a) Thanks [@camertron](https://github.com/camertron)! - rm diffStat/addition/bgColor
+
+### Patch Changes
+
+- [#736](https://github.com/primer/primitives/pull/736) [`2565a2d`](https://github.com/primer/primitives/commit/2565a2d30dbca13b73e21064036910e269385770) Thanks [@langermank](https://github.com/langermank)! - Fix `invisible` Button states for high contrast themes
+
+## 7.13.1
+
+### Patch Changes
+
+- [#733](https://github.com/primer/primitives/pull/733) [`f431e7e`](https://github.com/primer/primitives/commit/f431e7e74350b6ec400b36dc5f1cb0a4046e5e4b) Thanks [@langermank](https://github.com/langermank)! - - Remove the default button inset shadow (its basically invisible)
+
+  - Switch danger button to use the same border strategy as primary for hover/active
+
+- [#735](https://github.com/primer/primitives/pull/735) [`0d982b1`](https://github.com/primer/primitives/commit/0d982b1c7629afcdaa0a3168ffcfbfbae17aeeee) Thanks [@langermank](https://github.com/langermank)! - Add missing fallbacks for disabled buttons
+
+- [#731](https://github.com/primer/primitives/pull/731) [`5ebfafe`](https://github.com/primer/primitives/commit/5ebfafe54df605f31e1c0a0e603a25a7248adf4a) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - change scss output from css variables to scss variables
+
+- [#734](https://github.com/primer/primitives/pull/734) [`df91f47`](https://github.com/primer/primitives/commit/df91f4799d0b6d4018ef2bb3bea639660ba0ec6f) Thanks [@langermank](https://github.com/langermank)! - - Add iconColor tokens for the invisible button variant
+  - Remove highlight shadow token as its no longer used for Button
+
+## 7.13.0
+
+### Minor Changes
+
+- [#682](https://github.com/primer/primitives/pull/682) [`a082224`](https://github.com/primer/primitives/commit/a082224be3ef4d8cc73d7e8af11a727bbfb6d00d) Thanks [@langermank](https://github.com/langermank)! - - Add `inverse` color options for semantic color tokens to support Toast
+  - Update the default `emphasis` background color to `white` in dark mode
+  - Add `overlay` size tokens
+
+### Patch Changes
+
+- [#722](https://github.com/primer/primitives/pull/722) [`5394816`](https://github.com/primer/primitives/commit/5394816c98924e5b80d27cdf2a17b4bca2ac97aa) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Fioxed RGBAfloatconversion
+
+- [#723](https://github.com/primer/primitives/pull/723) [`a3b0d21`](https://github.com/primer/primitives/commit/a3b0d21746ac288c89c4f0f89f944cbe4b46d61c) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Adding group prop to figma output
+
+- [#729](https://github.com/primer/primitives/pull/729) [`d6bbf2a`](https://github.com/primer/primitives/commit/d6bbf2a2a0f9c0e2c91e77870f380a60eee670a4) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - fix shadow
+
+- [#727](https://github.com/primer/primitives/pull/727) [`364c09f`](https://github.com/primer/primitives/commit/364c09fd462fc31a049d82f0a50d914695d5bde1) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Allow some bgColors to be used as borders
+
+- [#730](https://github.com/primer/primitives/pull/730) [`0c237e3`](https://github.com/primer/primitives/commit/0c237e392ab78863da8b17b0aa185dd0f3df92e1) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - update borderColor Success
+
+- [#721](https://github.com/primer/primitives/pull/721) [`01aae86`](https://github.com/primer/primitives/commit/01aae86812435d2a6dc387d75641aa2a526cbdad) Thanks [@lukasoppermann](https://github.com/lukasoppermann)! - Fixing shadows
+
 ## 7.12.0
 
 ### Minor Changes

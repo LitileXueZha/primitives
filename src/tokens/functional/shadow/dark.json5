@@ -31,18 +31,6 @@
           ],
           $type: 'shadow',
         },
-        inset: {
-          $value: {
-            color: '{base.color.transparent}',
-            alpha: 0,
-            offsetX: '0px',
-            offsetY: '0px',
-            blur: '0px',
-            spread: '0px',
-            inset: false,
-          },
-          $type: 'shadow',
-        },
       },
     },
     primary: {
@@ -105,18 +93,6 @@
       $value: {
         color: '{base.color.black}',
         alpha: 0.24,
-        offsetX: '0px',
-        offsetY: '1px',
-        blur: '0px',
-        spread: '0px',
-        inset: true,
-      },
-      $type: 'shadow',
-    },
-    highlight: {
-      $value: {
-        color: '{base.color.white}',
-        alpha: 0.12,
         offsetX: '0px',
         offsetY: '1px',
         blur: '0px',
